@@ -1,0 +1,30 @@
+/* tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oleo+Script:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #1e1c4d; */
+  /* background-color: #0a0922; */
+  background-color: #222121;
+  color: gray;
+}
+
+::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(171, 168, 168);
+  border-radius: 30px;
+}
